@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 module.exports = {
-    dialect: "mssql",
+    dialect: "mariadb",
     host: process.env.DATABASE_HOST,
     port: Number(process.env.DATABASE_PORT),
     username: process.env.DATABASE_USERNAME,
